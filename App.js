@@ -55,36 +55,7 @@ export default class App extends React.Component {
           })
           j=0
         }
-    }
-      /*this.ar.map((e,key)=>{
-        pl.push(e.gates)
-      })*/
-    if(this.state.city=='Pune'){
-        /*this.ar.Pune.map((e,key)=>{
-        pl.push(e.gates)
-        
-      })
-
-        /*for(var i=0 ;i<pl.length ;i++){
-             list.push(<Picker.Item key={i} label={pl[i]} value={i} />)    
-        }
-*/     // console.log(pl)
-        
-    }
-    
-    else{
-      
-      if(this.state.city=='Satara'){
-        
-        /*this.ar.map((e,key)=>{
-        pl.push(e.gates)    
-        })
-        /*for(var i=0 ;i<pl.length ;i++){
-          list.push(<Picker.Item key={i} label={pl[i]} value={i} />)    
-        }*/
-        
-      }
-    }
+    }    
     return list
   }
 
